@@ -1,0 +1,19 @@
+[project]
+name = "lecture-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "fuad.sadigov", email = "fuad.sadigov@FUAD-SADIGOV" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain-ollama>=1.1.0",
+]
+
+[project.scripts]
+lecture-2 = "lecture_2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
